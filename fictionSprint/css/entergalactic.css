@@ -1,0 +1,95 @@
+@import url('https://fonts.googleapis.com/css2?family=Bungee+Spice&family=Fascinate+Inline&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Ribeye&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Syne+Mono&display=swap');
+
+p {
+    text-align: center;
+}
+
+img {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 50px;
+}
+
+nav {
+    position: sticky;
+    top: 0;
+}
+
+nav ul {
+    list-style-type: none;
+    overflow: hidden;
+    background-color: #ac4d0d;
+    /* 4 below are for center text on nav bar */
+    justify-content: center;
+    margin: 0;
+    padding: 0;
+    display: flex;
+}
+
+nav ul li {
+    float: left;
+
+}
+
+nav ul li a {
+    display: block;
+    color: rgb(255, 84, 17);
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+
+nav ul li a:hover {
+    background-color: #111111;
+}
+
+header {
+    text-align: center;
+}
+
+h1 {
+    font-family: "Bungee Spice", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    text-shadow: 2px 2px black;
+}
+
+body {
+    font-family: "Syne Mono", monospace;
+    font-weight: 400;
+    font-style: normal;
+    background: #ffd000;
+    background: linear-gradient(180deg, rgba(255, 208, 0, 1) 1%, rgba(253, 45, 45, 1) 27%);
+
+
+}
+
+section {
+    border-width: 15px;
+    border-style: inset;
+    border-color: #FF6417;
+    border-radius: 40px 40px 40px 40px;
+    overflow: hidden;
+}
+
+a:link {
+    color: rgb(0, 0, 0);
+}
+
+/* visited link */
+a:visited {
+    color: rgb(255, 167, 3);
+}
+
+/* mouse over link */
+a:hover {
+    color: rgb(255, 167, 3);
+}
+
+/* selected link */
+a:active {
+    color: rgb(255, 123, 0);
+}
