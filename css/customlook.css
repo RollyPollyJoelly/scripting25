@@ -1,0 +1,83 @@
+@import url('https://fonts.googleapis.com/css2?family=Chango&family=Chewy&family=Modak&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Chango&family=Chewy&family=Modak&family=New+Amsterdam&display=swap');
+
+.john{
+    float: left;
+    width: 35px;
+    overflow: hidden;
+    opacity: 5%;
+
+}
+
+header {
+    background-color: #4d4d4d;
+}
+
+h1,
+h2 {
+    font-family: "Chango", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+
+}
+
+p {
+    font-family: "New Amsterdam", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+}
+
+nav ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #333333;
+    justify-content: center;
+    margin: 0;
+    padding: 0;
+    display: flex;
+
+}
+
+nav ul li {
+    float: left;
+}
+
+nav ul li a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+
+nav ul li a:hover {
+    background-color: #111111;
+}
+body {
+    background-color:#8b8b8b ;
+}
+#BIO {
+    font-size: 20px;
+    border: 15px groove #6B6B6B;
+    padding: 20px;
+    margin: 20px;
+    /* padding-left: 100px;
+    padding-right: 100px; */
+
+}
+#GIGS p{
+    font-size: 20px;
+    border: 15px groove #6B6B6B;
+    padding: 50px;
+}
+footer {
+    background-color:#4d4d4d ;
+}
+footer a{
+    color: #000000;
+}
+footer a:hover{
+    color: #222222;
+}
