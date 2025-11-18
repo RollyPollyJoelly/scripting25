@@ -1,0 +1,78 @@
+@import url("https://fonts.googleapis.com/css2?family=Fascinate+Inline&family=TikTok+Sans:opsz,wght@12..36,300..900&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Fascinate+Inline&family=TikTok+Sans:opsz,wght@12..36,300..900&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Fascinate+Inline&family=Oswald:wght@200..700&family=TikTok+Sans:opsz,wght@12..36,300..900&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Fascinate+Inline&family=Honk&family=Oswald:wght@200..700&family=TikTok+Sans:opsz,wght@12..36,300..900&display=swap");
+
+header {
+  background-image: url(../css/images/flatten.jpg);
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+
+}
+.geo {
+  font-size: 32px;
+  color: #d97a43;
+  text-decoration-thickness: 30px;
+  -webkit-text-stroke-color: #401201;
+  -webkit-text-stroke-width: 1.5px;
+}
+.navbar {
+  font-family: "Oswald", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: <weight>;
+  font-style: normal;
+}
+.custom-navbar {
+  background-color: #401201;
+}
+a {
+  color: #f2836b;
+}
+h1 {
+  padding: 50px;
+  color: #401201;
+  font-family: "Oswald", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: <weight>;
+  font-style: normal;
+}
+h2 {
+  color: #f28705;
+  font-family: "Oswald", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: <weight>;
+  font-style: normal;
+  -webkit-text-stroke-color: #401201;
+  -webkit-text-stroke-width: 1.5px;
+}
+h3 {
+  color: #f28705;
+}
+body {
+  background-color: #d97a43;
+}
+footer {
+  padding: 50px;
+  margin-top: 70px;
+  color: #401201;
+  background-color: #401201;
+}
+.map-container {
+  position: relative;
+  padding-bottom: 56.25%;
+  height: 0;
+  overflow: hidden;
+}
+.map-container iframe {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+}
+
+.my-custom-card {
+  color: red;
+}
